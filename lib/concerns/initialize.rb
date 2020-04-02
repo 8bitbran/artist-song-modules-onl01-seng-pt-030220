@@ -2,7 +2,7 @@ module Initialize
   module InstanceMethods
     
     def initialize 
-      self.all << self
+      self.class.all << self
     end
     
   end 
